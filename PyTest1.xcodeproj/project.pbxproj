@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		019E19B41921D30F0047126F /* ImageResize.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ImageResize.py; sourceTree = "<group>"; };
+		01A90E29191A062600BC9D68 /* test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		01A90E1D191A043E00BC9D68 = {
 			isa = PBXGroup;
 			children = (
+				019E19B41921D30F0047126F /* ImageResize.py */,
+				01A90E29191A062600BC9D68 /* test.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +29,8 @@
 			buildConfigurationList = 01A90E25191A043E00BC9D68 /* Build configuration list for PBXLegacyTarget "PyTest1" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/local/bin/python3;
+			buildToolPath = /usr/bin/python2.7;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = PyTest1;
@@ -165,6 +173,7 @@
 				01A90E27191A043E00BC9D68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
